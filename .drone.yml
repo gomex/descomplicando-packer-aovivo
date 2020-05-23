@@ -30,5 +30,5 @@ steps:
     - packer build -var-file variables.json packer.json
 
 volumes:
-- name: cache
-    temp: {}
+    - name: cache
+        temp: {}
