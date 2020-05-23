@@ -36,6 +36,7 @@
       {
         "type": "ansible",
         "playbook_file": "./playbook.yml",
+        "galaxy_file": "./requirements.yml",
         "user": "ubuntu",
         "extra_arguments": [
           "--extra-vars",
