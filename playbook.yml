@@ -2,6 +2,6 @@
   become: yes
   become_method: sudo
   roles:
-    - role: nginxinc.nginx
+    - role: role-ansible
   vars:
     nginx_sitename: gomex.me

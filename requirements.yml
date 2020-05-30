@@ -1,1 +1,3 @@
-- src: nginxinc.nginx
+- src: https://github.com/gomex/role-ansible.git
+  scm: git
+  version: "v0.1"
